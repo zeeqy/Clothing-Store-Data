@@ -1,0 +1,61 @@
+INSERT INTO customer (cust_id,cust_name,cust_email,cust_password,cust_address,cust_phone)
+VALUES
+('C001','Ahmad Haziq','zeeq@gmail.com','zeeq1210','No.20 Jalan Seri Pristana 47000 Sungai Buloh Selangor','016-9625-914'),
+('C002','Syakir Affendi','muzmuz@gmail.com','muz2004','No.19 Jalan Sembilan 46000 Raub Pahang','013-7644-986'),
+('C003','Faris Danish','paris@gmail.com','faris2808','No.27 Jalan Rosak 35000 Sepang Selangor','013-4293-564),
+('C004','Harith Muzaffar','nico@gmail.com','nya6969','No.31 Jalan Cari Makan 45000 Sekinchan Selangor','012-8765-913'),
+('C005','Claire Cotrill','sling@gmail.com','fhc0124','No.41 Jalan Seri Pristana 47000 Sungai Buloh Selangor','017-2931-971'),
+('C006','Khalid Kashimiri','elgato@gmail.com','meow1111','No.14 Jalan Paip Bocor 43000 Meru Selangor','018-2982-122'),
+('C007','Dasha Taran','dasha@gmail.com','qtp2t2003','No.22 Jalan Rosak 35000 Sepang Selangor','011-8712-991),
+('C008','Naruto Uzumaki','rasengan@gmail.com','ramen4003','No.19 Jalan Sembilan 46000 Raub Pahang','011-2431-131'),
+('C009','Hazel English','hazel@gmail.com','hazzy2005','No.30 Jalan Empayar Paramiswara 41000 Sungai Buloh Selangor','019-2295-978'),
+('C010','Rosemary Winters','ethan@gmail.com','winters2000','No.26 Jalan Sembilan 46000 Raub Pahang','011-4177-998'),
+('C011','John Pork','john@gmail.com','ringring1997','No.29 Jalan Cari Makan 45000 Sekinchan Selangor','017-9172-331),
+('C012','Paul Walker','R34@gmail.com','skyline2000','No.13 Jalan Empayar Paramiswara 41000 Sungai Buloh Selangor','014-5921-615'),
+('C013','Gwen Stacy','gwen@gmail.com','stacy2007','No.40 Jalan Seri Pristana 47000 Sungai Buloh Selangor','015-8162-761'),
+('C014','Saint Lauren','YSL@gmail.com','Dior1982','No.37 Jalan Rosak 35000 Sepang Selangor','019-7655-982'),
+('C015','Ramona Flower','flower@gmail.com','Evil7777','No.24 Jalan Sembilan 46000 Raub Pahang','017-9821-867)
+
+INSERT INTO product (prod_id,prod_name,prod_price,prod_desc)
+VALUES
+('P001','Stussy','100.00','Cotton Shirt'),
+('P002','The North Face','350.00','Puffer Jacket'),
+('P003','Essential','450.00','Polyester Hoodie'),
+('P004','Off White','1000.00','Leather Jacket'),
+('P005','Levis','270.00','Denim Jacket'),
+('P006','Bathing Ape','950.00','Wool Hoodie'),
+('P007','Super Sunday','250.00','Cotton Shirt'),
+('P008','Louis Vuitton','3700.00','Leather Coat'),
+('P009','Ripndip','190.00','Polyester Shirt'),
+('P010','Padini','280.00','Versity Jacket'),
+('P011','Undefeated','750.00','Cotton Turtleneck'),
+('P012','Trasher','470.00','Flannel Shirt')
+
+INSERT INTO order (ord_id,cust_id,prod_id,ord_qty,ord_date,emp_id)
+VALUES
+('ORD001','C004','P004','3','12-5-2023',' '),
+('ORD002','C011','P011','2','12-4-2023',' '),
+('ORD003','C005','P007','3','31-9-2023',' '),
+('ORD004','C007','P002','1','11-5-2023',' '),
+('ORD005','C011','P007','5','19-7-2023',' '),
+('ORD006','C008','P009','7','17-5-2023',' '),
+('ORD007','C015','P012','2','21-5-2023',' '),
+('ORD008','C012','P011','1','22-5-2023',' '),
+('ORD009','C009','P009','1','18-5-2023',' '),
+('ORD010','C014','P004','3','19-6-2023',' '),
+('ORD011','C006','P006','6','29-5-2023',' '),
+('ORD012','C013','P001','2','28-5-2023',' '),
+('ORD013','C007','P008','1','16-5-2023',' '),
+('ORD014','C009','P003','4','18-3-2023',' '),
+('ORD015','C014','P006','2','26-5-2023',' '),
+('ORD016','C012','P007','2','22-9-2023',' '),
+('ORD017','C003','P012','3','28-4-2023',' '),
+('ORD018','C002','P003','1','23-5-2023',' '),
+('ORD019','C010','P005','5','27-3-2023',' '),
+('ORD020','C013','P001','7','21-9-2023',' '),
+('ORD021','C015','P012','2','09-9-2023',' '),
+('ORD022','C008','P010','8','09-11-2023',' '),
+('ORD023','C003','P002','6','10-11-2023',' '),
+('ORD024','C007','P004','5','15-7-2023',' '),
+('ORD025','C005','P008','4','17-7-2023',' ')
+
